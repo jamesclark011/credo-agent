@@ -23,7 +23,7 @@ services:
     # This dynamically loads the wallet id, wallet key and agent endpoint (so you can use ngrok)
     # you also want to dynamically inject postgres connection details in prod
     env_file:
-      - path: .env.local
+      - path: ".env.local"
         required: true
 
     environment:
